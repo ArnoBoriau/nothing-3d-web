@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#2a2a2a" />
+    <title>Nothing — Sound, Assembled.</title>
+    <link rel="preload" href="/fonts/Ndot57-Regular.otf" as="font" type="font/otf" crossorigin />
+    <link rel="preload" href="/fonts/SpaceMono-Regular.otf" as="font" type="font/otf" crossorigin />
+  </head>
+  <body>
+    <header class="nav">
+      <button class="nav__icon" type="button" aria-label="Open menu">
+        <svg width="14" height="8" viewBox="0 0 14 8" aria-hidden="true">
+          <path d="M0 1h14M0 7h14" stroke="currentColor" stroke-width="1.6" />
+        </svg>
+      </button>
+      <a class="nav__logo" href="/">NOTHING (R)</a>
+      <button class="nav__icon" type="button" aria-label="Open cart">
+        <svg width="12" height="14" viewBox="0 0 12 14" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.5">
+          <path d="M1.5 4.5h9l-.6 8.25H2.1z" />
+          <path d="M3.75 4.5V3.25a2.25 2.25 0 0 1 4.5 0V4.5" />
+        </svg>
+      </button>
+    </header>
+
+    <main class="hero">
+      <picture class="hero__media">
+        <source media="(max-width: 767px)" srcset="/images/hero-phone.jpg" />
+        <img
+          src="/images/hero-desktop.jpg"
+          alt="Nothing audio collection: a white modular hi-fi unit, headphones on a turntable, earbuds in transparent cases and Phone (3) inside a glass block."
+          fetchpriority="high"
+        />
+      </picture>
+
+      <div class="hero__content">
+        <p class="hero__eyebrow"><span class="dot" aria-hidden="true"></span>NEW — THE AUDIO COLLECTION</p>
+        <h1 class="hero__title">SOUND.<br />ASSEMBLED.</h1>
+        <p class="hero__body">
+          <span class="only-desktop">Phone (3), Ear (a) and Headphone (1). Designed to work as one, and built to be seen.</span>
+          <span class="only-mobile">A headphone designed to work, and built to be seen.</span>
+          Transparent by nature. Made for sound.
+        </p>
+        <a class="btn" href="#collection">EXPLORE THE COLLECTION</a>
+      </div>
+
+      <footer class="hero__footer">
+        <span>SCROLL ↓</span>
+        <span>© 2026 NOTHING TECHNOLOGY LIMITED</span>
+        <span>BELGIUM / EN</span>
+      </footer>
+    </main>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
